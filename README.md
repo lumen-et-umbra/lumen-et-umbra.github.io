@@ -7,7 +7,7 @@ Sito statico della community GitHub di **Lumen et Umbra (LeU)**.
 - Pubblicazione: GitHub Actions su GitHub Pages, branch `main`
 - Sito di anteprima: https://lumen-et-umbra.github.io/
 
-Il repository ospita solo il sito; **non** il server MUD né il database di gioco. La configurazione del dominio `www.leu.it` sarà effettuata solo con l'autorizzazione di chi gestisce il DNS.
+Il repository ospita solo il sito; **non** il server MUD né il database di gioco.
 
 ## Struttura
 
