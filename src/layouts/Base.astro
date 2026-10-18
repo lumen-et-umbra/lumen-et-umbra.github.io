@@ -1,0 +1,30 @@
+---
+import '../styles/global.css';
+interface Props {title:string; description:string;}
+const {title, description} = Astro.props;
+const nav = [{href:'/',label:'Home'},{href:'/gioca/',label:'Gioca'},{href:'/mondo/',label:'Il mondo'},{href:'/storia/',label:'Storia'},{href:'/archivio/',label:'Archivio'}];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#11151e" />
+  <meta name="description" content={description} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <title>{title} · Lumen et Umbra</title>
+</head>
+<body>
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <header class="masthead wrap">
+    <a class="brand" href="/" aria-label="Lumen et Umbra, home"><span class="brand-symbol" aria-hidden="true">✧</span><span>LUMEN <em>ET</em> UMBRA</span></a>
+    <nav aria-label="Navigazione principale">{nav.map(n=><a class:list={{active:path===n.href}} href={n.href}>{n.label}</a>)}</nav>
+  </header>
+  <main id="main"><slot /></main>
+  <footer class="footer">
+    <div class="wrap footer-inner"><div><strong>LUMEN ET UMBRA</strong><p>Un mondo di parole, dal 1994.</p></div><div><a href="https://github.com/lumen-et-umbra">GitHub</a><a href="/archivio/">Archivio</a><a href="/storia/">La nostra storia</a></div></div>
+    <div class="wrap fineprint">Progetto della comunità · Nessun tracciamento · Nessuna risorsa caricata da servizi esterni</div>
+  </footer>
+</body>
+</html>
