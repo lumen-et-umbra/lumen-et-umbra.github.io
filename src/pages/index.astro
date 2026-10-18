@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+const paths=[
+ {num:'I',title:'Entra nel mondo',body:'Il primo passo di ogni avventura: scopri come raggiungere Lumen et Umbra e muovere i primi passi.',link:'/gioca/',cta:'Come giocare →'},
+ {num:'II',title:'Esplora la leggenda',body:'Luoghi, personaggi, storie e incontri: un mondo costruito insieme nel corso di molte generazioni.',link:'/mondo/',cta:'Il mondo →'},
+ {num:'III',title:'Custodisci la memoria',body:'Ricostruire e preservare i ricordi del MUD è un lavoro collettivo, aperto a chi c’era e a chi arriverà.',link:'/storia/',cta:'La nostra storia →'}
+];
+---
+<Base title="Il mondo vive nelle parole" description="Lumen et Umbra: un MUD fantasy italiano, una comunità e una storia iniziata nel 1994.">
+<section class="hero"><div class="wrap hero-content">
+  <p class="eyebrow">Un MUD italiano · Dal 1994</p>
+  <h1>Lumen <span>et Umbra.</span></h1>
+  <p class="lede">Prima che esistessero i mondi virtuali come li conosciamo oggi, c'erano mondi fatti di parole. E persone capaci di renderli reali.</p>
+  <div class="actions"><a class="button" href="/gioca/">Entra nel mondo ↗</a><a class="button secondary" href="/storia/">Scopri la nostra storia</a></div>
+</div></section>
+<section class="section wrap"><div class="section-intro"><p class="eyebrow">Un mondo ancora da raccontare</p><h2>Ogni leggenda comincia da qualcuno che scrive una riga.</h2><p>Lumen et Umbra è un Multi-User Dungeon: un universo fantasy testuale in cui l'immaginazione, la collaborazione e le avventure dei giocatori costruiscono la storia.</p></div>
+<div class="grid">{paths.map(item=><article class="card"><span class="number">{item.num}</span><h3>{item.title}</h3><p>{item.body}</p><a href={item.link}>{item.cta}</a></article>)}</div></section>
+<section class="section wrap"><p class="eyebrow">La nostra eredità</p><p class="quote">«Le storie non scompaiono quando si spegne il terminale. Rimangono nelle persone che le hanno vissute.»</p><p>Stiamo costruendo un luogo dove ritrovarle, custodirle e scriverne di nuove.</p><a class="button secondary" href="/archivio/">Contribuisci all'archivio</a></section>
+</Base>
