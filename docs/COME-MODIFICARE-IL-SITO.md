@@ -14,7 +14,8 @@ Se preferisci CLion o Rider, puoi comunque aprire e modificare i file. VS Code �
 
 1. Apri [il repository del sito](https://github.com/lumen-et-umbra/lumen-et-umbra.github.io).
 2. Premi **Code → Open with GitHub Desktop** e conferma **Clone**. Se non vedi l'opzione, apri GitHub Desktop → **File → Clone repository → URL** e incolla l'indirizzo del repository.
-3. Apri la cartella appena scaricata in VS Code (**File → Open Folder**).
+3. In GitHub Desktop, seleziona **Current branch → New branch**. Chiamala, per esempio, `correggi-homepage`: così lavori su una copia separata da quella pubblicata.
+4. Apri la cartella appena scaricata in VS Code (**File → Open Folder**).
 
 **Non serve creare un nuovo progetto Astro:** il progetto è già pronto nel repository.
 
@@ -66,11 +67,10 @@ Se termina senza errori, hai verificato che il sito si può generare. Il risulta
 
 ## 5. Manda la modifica senza pubblicarla subito
 
-1. In **GitHub Desktop**, prima di fare modifiche, seleziona **Current branch → New branch**. Dagli un nome semplice, per esempio `correggi-homepage`.
-2. Torna in VS Code, modifica e prova il sito.
-3. In GitHub Desktop vedrai i file cambiati. Scrivi una breve descrizione (es. `Corregge testo della homepage`) e premi **Commit**.
-4. Premi **Publish branch**.
-5. Premi **Create Pull Request** per proporre la modifica su GitHub.
+1. Dopo aver modificato e provato il sito, torna in **GitHub Desktop**: vedrai i file cambiati.
+2. Scrivi una breve descrizione (es. `Corregge testo della homepage`) e premi **Commit**.
+3. Premi **Publish branch**.
+4. Premi **Create Pull Request** per proporre la modifica su GitHub.
 
 La **pull request** è una richiesta di incorporare le tue modifiche nel sito ufficiale: si possono rivedere prima di pubblicarle. **Non lavorare direttamente sul branch `main`**: quando una modifica arriva lì, GitHub pubblica automaticamente una nuova versione del sito.
 

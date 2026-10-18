@@ -1,5 +1,7 @@
 # Lumen et Umbra — sito della comunità
 
+**Vuoi modificare il sito dal tuo PC?** Leggi la [guida semplice per Windows 10](docs/COME-MODIFICARE-IL-SITO.md): come scaricarlo, provarlo localmente e proporre modifiche.
+
 Sito statico della community GitHub di **Lumen et Umbra (LeU)**.
 
 - Sviluppo locale: `npm install && npm run dev`
