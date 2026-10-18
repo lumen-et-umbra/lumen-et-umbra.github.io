@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="-165 -165 330 330"><title>Lumen et Umbra — sole nero e falce di luna dorata</title><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#09111e"/><stop offset=".55" stop-color="#02050c"/><stop offset="1" stop-color="#17101d"/></linearGradient><linearGradient id="gold" x1="0" x2="1" y1="0" y2=".85"><stop stop-color="#fff2c6"/><stop offset=".48" stop-color="#e9c37f"/><stop offset="1" stop-color="#ac783b"/></linearGradient><radialGradient id="shine"><stop stop-color="#ba864e" stop-opacity=".17"/><stop offset="1" stop-color="#ba864e" stop-opacity="0"/></radialGradient></defs><rect x="-165" y="-165" width="330" height="330" rx="18" fill="url(#bg)"/><circle r="163" fill="url(#shine)"/>
+<g stroke-linejoin="round">
+  <circle r="120" fill="none" stroke="#dbb776" stroke-width="1.8"/>
+  <circle r="113" fill="none" stroke="#dbb776" stroke-width="1.8" opacity=".93"/>
+  <circle r="133" fill="none" stroke="#dbb776" stroke-width=".65" stroke-dasharray="3 9" opacity=".45"/>
+  <path d="M-11.09,76.2 L-19.96,93.9 L-20.86,74.12Z" fill="url(#gold)"/>
+  <path d="M-32.29,69.9 L-53,91.8 L-44.39,62.91Z" fill="url(#gold)"/>
+  <path d="M-53.76,55.13 L-71.34,64.24 L-60.44,47.7Z" fill="url(#gold)"/>
+  <path d="M-67.21,37.58 L-96.84,43.11 L-72.9,24.8Z" fill="url(#gold)"/>
+  <path d="M-75.89,13 L-95.47,10.03 L-76.94,3.06Z" fill="url(#gold)"/>
+  <path d="M-76.46,-9.11 L-103.68,-22.04 L-73.55,-22.78Z" fill="url(#gold)"/>
+  <path d="M-69.04,-34.09 L-83.14,-48 L-64.05,-42.75Z" fill="url(#gold)"/>
+  <path d="M-56.51,-52.31 L-70.93,-78.77 L-46.12,-61.66Z" fill="url(#gold)"/>
+  <path d="M-35.82,-68.16 L-39.05,-87.7 L-26.69,-72.23Z" fill="url(#gold)"/>
+  <circle r="77" fill="#010203" stroke="#f4d7a1" stroke-width="1.8"/>
+  <path d="M-1 -75 A75 75 0 0 1 -1 75 Q63 0 -1 -75Z" fill="url(#gold)" stroke="#dbb776" stroke-width=".6"/>
+  <circle r="81" fill="none" stroke="#d6aa68" stroke-width=".75" opacity=".85"/>
+  <path d="M0 -140 L10 -120 L0 -100 L-10 -120Z M0 140 L10 120 L0 100 L-10 120Z M-140 0 L-120 -10 L-100 0 L-120 10Z M140 0 L120 -10 L100 0 L120 10Z" fill="#010203" stroke="#f4d7a1" stroke-width="2"/>
+  <path d="M0 -132 L4 -120 L0 -108 L-4 -120Z M0 132 L4 120 L0 108 L-4 120Z M-132 0 L-120 -4 L-108 0 L-120 4Z M132 0 L120 -4 L108 0 L120 4Z" fill="#dbb776"/>
+  <g fill="#dbb776" opacity=".83"><path d="M-85 -90l6 11 11 6 -11 6 -6 11 -6 -11 -11 -6 11 -6Z" transform="scale(.35) translate(-171,-159)"/><path d="M85 90l6 11 11 6 -11 6 -6 11 -6 -11 -11 -6 11 -6Z" transform="scale(.35) translate(171,159)"/></g>
+</g></svg>
